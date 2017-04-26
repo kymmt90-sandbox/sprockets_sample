@@ -1,0 +1,4 @@
+<% %w(foo bar hoge fuga).each do |name| %>
+  shoutTo<%= name.capitalize %> = ->
+      alert('Helloooooooooooooooooo!!! <%= name %>!!!')
+<% end %>
